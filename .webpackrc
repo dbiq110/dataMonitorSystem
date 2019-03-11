@@ -1,2 +1,12 @@
 {
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ],
+  "disableCSSModules": true,
+
+  "env": {
+    "development": {
+        "extraBabelPlugins": ["dva-hmr"]
+    }}
+
 }
