@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import './box2.less'
 
 const ChartBox=(props)=>{
-  return   <li className="chart-box"
-  >
+  return   <li className="chart-box">
     <p>
       <span className="top-text1">地点？</span>
       <span className="top-text2">40000<i className="top-text3">人次？</i></span>

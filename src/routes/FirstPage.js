@@ -22,26 +22,28 @@ function FirstPage() {
               <p style={{width:'100%',height:'2vh',lineHeight:'2vh',color:'#fff',fontSize:'1vh'}}>2015</p>
               <Box1></Box1>
               <div style={{display:'flex'}}>
-                <div style={{flex:1,color:'#FFF',textAlign:'center'}}>xxxxxxxxxx</div>
-                <div style={{flex:1,color:'#FFF',textAlign:'center'}}>xxxxxxxxxx</div>
+                <div style={{flex:1,color:'#FFF',textAlign:'center',fontSize:'1vh'}}>xxxxxxxxxx</div>
+                <div style={{flex:1,color:'#FFF',textAlign:'center',fontSize:'1vh'}}>xxxxxxxxxx</div>
               </div>
             </div>
             <div className="box box2">
               <p style={{width:'100%',height:'2vh',lineHeight:'2vh',color:'#fff',fontSize:'1vh'}}>2015</p>
               <Box2></Box2>
             </div>
-            <div className="box box3">
+            <div className="box box3" style={{display:'flex',flexDirection:'column'}}>
               <Box3></Box3>
 
             </div>
-            <div className="box box4"></div>
+            <div className="box box4">
+
+            </div>
           </div>
           <div className="center-right">
             <div className="box box5"></div>
             <div className="box6"></div>
           </div>
         </div>
-        <div className="bottom">
+        <div className="bottom" >
         </div>
       </div>
     // </div>

@@ -7,7 +7,7 @@ export default (props)=>{
   const data2=props.data2?props.data2:30
 
   return <div style={{width:'100%',display:"flex"}}>
-      <ReactEcharts style={{height:'11vh',width:'50%'}} option={{
+      <ReactEcharts style={{height:'10vh',width:'50%'}} option={{
         tooltip: {
           trigger: 'item',
           formatter: "{a} <br/>{b}: {c} ({d}%)"
@@ -63,7 +63,7 @@ export default (props)=>{
 
         ]
       }} />
-      <ReactEcharts style={{height:'11vh',width:'50%'}}
+      <ReactEcharts style={{height:'10vh',width:'50%'}}
                     option={{
                       tooltip: {
                         trigger: 'item',
