@@ -9,20 +9,20 @@ import './box3.less'
         <img className="icon-up" src={require('../../assets/image/icon/icon-up.png')} alt=""/>
 
       </li>
-    <li>
-      <span>不知道啥</span>
-      <i style={{height:'60%'}}></i>
-      <p className="title">不知道啥50%</p>
-      <img className="icon-up" src={require('../../assets/image/icon/icon-up.png')} alt=""/>
+      <li>
+        <span>不知道啥</span>
+        <i style={{height:'60%'}}></i>
+        <p className="title">不知道啥50%</p>
+        <img className="icon-up" src={require('../../assets/image/icon/icon-up.png')} alt=""/>
 
-    </li>
-    <li>
-      <span>不知道啥</span>
-      <i style={{height:'40%'}}></i>
-      <p className="title">不知道啥50%</p>
-      <img className="icon-up" src={require('../../assets/image/icon/icon-up.png')} alt=""/>
+      </li>
+      <li>
+        <span>不知道啥</span>
+        <i style={{height:'40%'}}></i>
+        <p className="title">不知道啥50%</p>
+        <img className="icon-up" src={require('../../assets/image/icon/icon-up.png')} alt=""/>
 
-    </li>
-  </ul>
+      </li>
+    </ul>
 }
 export default Box3;

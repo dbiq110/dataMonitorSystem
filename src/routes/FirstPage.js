@@ -5,6 +5,7 @@ import MapComponent from "../components/Map.component";
 import Box1 from '../components/box1/box1.jsx';
 import Box2 from '../components/box2/box2.jsx';
 import Box3 from '../components/box3/box3.jsx';
+import Box4 from '../components/box4/box4.jsx';
 import echartOptionService from '../services/echartOptionService';
 
 function FirstPage() {
@@ -31,11 +32,13 @@ function FirstPage() {
               <Box2></Box2>
             </div>
             <div className="box box3" style={{display:'flex',flexDirection:'column'}}>
+              <p style={{width:'100%',height:'2vh',lineHeight:'2vh',color:'#fff',fontSize:'1vh'}}>2015</p>
               <Box3></Box3>
 
             </div>
             <div className="box box4">
-
+              <p style={{width:'100%',height:'2vh',lineHeight:'2vh',color:'#fff',fontSize:'1vh'}}>2015</p>
+              <Box4></Box4>
             </div>
           </div>
           <div className="center-right">
